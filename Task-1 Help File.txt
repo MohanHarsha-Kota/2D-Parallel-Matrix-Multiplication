@@ -1,0 +1,11 @@
+Task - 1 (Matrix Multiplication)
+
+1. compile the code using : mpicc -o matrix Task-1.c
+
+2. Run the code as : time mpirun -n 1/2/4/8 ./matrix
+
+Note: SIZE of matrix is assumed to be a multiple of number of nodes.
+SIZE can be changed by modifying the macros at the beginning of the
+code.
+
+Thank you!
